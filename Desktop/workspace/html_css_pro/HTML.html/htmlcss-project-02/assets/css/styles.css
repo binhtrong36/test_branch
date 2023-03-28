@@ -93,7 +93,7 @@ a {
     position: absolute;
     min-width: 270px;
     right: 0;
-    bottom: 48px;
+    bottom: 106px;
     padding: 28px 24px;
     background: #ffffff;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
@@ -101,6 +101,7 @@ a {
 }
 .hero-sumary .item {
     display: flex;
+    align-items: center;
 }
 .hero-sumary .item + .item {
     margin-top: 22px;
@@ -130,6 +131,7 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    margin-bottom: 65px;
 }
 .hero-sumary .icon {
     width: 48px;
@@ -173,28 +175,53 @@ a {
     line-height: 1.67;
     margin: 22px 0 38px 0;
 }
-
+.content-block .value:nth-child(2) {
+    margin-left: 28px;
+}
 .content-block .cta-group {
     display: flex;
 }
 .content-block .btn {
     width: 180px;
-    line-height: 64px;
+    line-height: 40px;
     background: #ffb900;
     border-radius: 50px;
 }
 .content-block .watch-video {
     display: flex;
     align-items: center;
-    margin-left: 28px;
+    background-color: transparent;
+    border: none;
 }
 
 .content-block .icon {
     width: 40px;
     line-height: 40px;
-    padding-left: 3px;
+    margin: 0 14px 0 28px;
 
     background: #ffffff;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
     border-radius: 50%;
+}
+.content-block .watch {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.content-block .desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.content-block .value {
+    color: #171100;
+    width: 54px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+}
+.hero-sumary .title {
+    padding: 5px 0;
 }
